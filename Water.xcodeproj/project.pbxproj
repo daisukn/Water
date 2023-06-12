@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8AAB7D2A354BF500F23530 /* VertexArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB762A354BB600F23530 /* VertexArray.cpp */; };
+		7E8AAB7E2A354BF500F23530 /* MoveComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB6C2A354BB600F23530 /* MoveComponent.cpp */; };
+		7E8AAB7F2A354BF500F23530 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB792A354BB600F23530 /* Shader.cpp */; };
+		7E8AAB802A354BF500F23530 /* BoundingVolumeComponet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB772A354BB600F23530 /* BoundingVolumeComponet.cpp */; };
+		7E8AAB812A354BF500F23530 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB2C2A354BB500F23530 /* Math.cpp */; };
+		7E8AAB822A354BF500F23530 /* DebuggerComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB2E2A354BB500F23530 /* DebuggerComponent.cpp */; };
+		7E8AAB832A354BF500F23530 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB112A354BB500F23530 /* Application.cpp */; };
+		7E8AAB842A354BF500F23530 /* CameraComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB212A354BB500F23530 /* CameraComponent.cpp */; };
+		7E8AAB852A354BF500F23530 /* RPGActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB7A2A354BB600F23530 /* RPGActor.cpp */; };
+		7E8AAB862A354BF500F23530 /* SpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB342A354BB600F23530 /* SpriteComponent.cpp */; };
+		7E8AAB872A354BF500F23530 /* OrbitCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB142A354BB500F23530 /* OrbitCamera.cpp */; };
+		7E8AAB882A354BF500F23530 /* PhysWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB352A354BB600F23530 /* PhysWorld.cpp */; };
+		7E8AAB892A354BF500F23530 /* WolfActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB202A354BB500F23530 /* WolfActor.cpp */; };
+		7E8AAB8A2A354BF500F23530 /* ColliderComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB302A354BB500F23530 /* ColliderComponent.cpp */; };
+		7E8AAB8B2A354BF500F23530 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB272A354BB500F23530 /* Texture.cpp */; };
+		7E8AAB8C2A354BF500F23530 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB392A354BB600F23530 /* Actor.cpp */; };
+		7E8AAB8D2A354BF500F23530 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB782A354BB600F23530 /* Polygon.cpp */; };
+		7E8AAB8E2A354BF500F23530 /* FieldOvjectActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB132A354BB500F23530 /* FieldOvjectActor.cpp */; };
+		7E8AAB8F2A354BF500F23530 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB122A354BB500F23530 /* Mesh.cpp */; };
+		7E8AAB902A354BF500F23530 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB262A354BB500F23530 /* Renderer.cpp */; };
+		7E8AAB912A354BF500F23530 /* FollowCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB102A354BB500F23530 /* FollowCamera.cpp */; };
+		7E8AAB922A354BF500F23530 /* ParticleComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB652A354BB600F23530 /* ParticleComponent.cpp */; };
+		7E8AAB932A354BF500F23530 /* MeshComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB372A354BB600F23530 /* MeshComponent.cpp */; };
+		7E8AAB942A354BF500F23530 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB332A354BB600F23530 /* Component.cpp */; };
+		7E8AAB952A354BF500F23530 /* FollowActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB7B2A354BB600F23530 /* FollowActor.cpp */; };
+		7E8AAB962A354BF500F23530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB292A354BB500F23530 /* main.cpp */; };
+		7E8AAB972A354BF500F23530 /* Bone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB722A354BB600F23530 /* Bone.cpp */; };
+		7E8AAB982A354BF500F23530 /* SkeletalMeshComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB362A354BB600F23530 /* SkeletalMeshComponent.cpp */; };
+		7E8AAB992A354BF500F23530 /* InputSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AAB712A354BB600F23530 /* InputSystem.cpp */; };
+		7E8AAB9C2A354E0300F23530 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8AAB9B2A354E0300F23530 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E8AAA762A354AAC00F23530 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E8AAA782A354AAC00F23530 /* Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Water; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8AAB0E2A354BB500F23530 /* ColliderComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColliderComponent.h; sourceTree = "<group>"; };
+		7E8AAB0F2A354BB500F23530 /* Polygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		7E8AAB102A354BB500F23530 /* FollowCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FollowCamera.cpp; sourceTree = "<group>"; };
+		7E8AAB112A354BB500F23530 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		7E8AAB122A354BB500F23530 /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		7E8AAB132A354BB500F23530 /* FieldOvjectActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FieldOvjectActor.cpp; sourceTree = "<group>"; };
+		7E8AAB142A354BB500F23530 /* OrbitCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OrbitCamera.cpp; sourceTree = "<group>"; };
+		7E8AAB152A354BB500F23530 /* MoveComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveComponent.h; sourceTree = "<group>"; };
+		7E8AAB172A354BB500F23530 /* Phong.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Phong.frag; sourceTree = "<group>"; };
+		7E8AAB182A354BB500F23530 /* BasicMesh.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = BasicMesh.vert; sourceTree = "<group>"; };
+		7E8AAB192A354BB500F23530 /* Particle.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Particle.frag; sourceTree = "<group>"; };
+		7E8AAB1A2A354BB500F23530 /* Sprite.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Sprite.vert; sourceTree = "<group>"; };
+		7E8AAB1B2A354BB500F23530 /* Billboard.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Billboard.vert; sourceTree = "<group>"; };
+		7E8AAB1C2A354BB500F23530 /* BasicMesh.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = BasicMesh.frag; sourceTree = "<group>"; };
+		7E8AAB1D2A354BB500F23530 /* Phong.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Phong.vert; sourceTree = "<group>"; };
+		7E8AAB1E2A354BB500F23530 /* Skinned.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Skinned.vert; sourceTree = "<group>"; };
+		7E8AAB1F2A354BB500F23530 /* Sprite.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Sprite.frag; sourceTree = "<group>"; };
+		7E8AAB202A354BB500F23530 /* WolfActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WolfActor.cpp; sourceTree = "<group>"; };
+		7E8AAB212A354BB500F23530 /* CameraComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CameraComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB222A354BB500F23530 /* Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		7E8AAB232A354BB500F23530 /* Bone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bone.h; sourceTree = "<group>"; };
+		7E8AAB242A354BB500F23530 /* Mesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		7E8AAB252A354BB500F23530 /* FollowCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowCamera.h; sourceTree = "<group>"; };
+		7E8AAB262A354BB500F23530 /* Renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		7E8AAB272A354BB500F23530 /* Texture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		7E8AAB282A354BB500F23530 /* Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		7E8AAB292A354BB500F23530 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7E8AAB2A2A354BB500F23530 /* Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		7E8AAB2B2A354BB500F23530 /* BoundingVolumeComponet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoundingVolumeComponet.h; sourceTree = "<group>"; };
+		7E8AAB2C2A354BB500F23530 /* Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		7E8AAB2D2A354BB500F23530 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		7E8AAB2E2A354BB500F23530 /* DebuggerComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DebuggerComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB2F2A354BB500F23530 /* FieldOvjectActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FieldOvjectActor.h; sourceTree = "<group>"; };
+		7E8AAB302A354BB500F23530 /* ColliderComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColliderComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB312A354BB500F23530 /* ParticleComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleComponent.h; sourceTree = "<group>"; };
+		7E8AAB322A354BB500F23530 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		7E8AAB332A354BB600F23530 /* Component.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
+		7E8AAB342A354BB600F23530 /* SpriteComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB352A354BB600F23530 /* PhysWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhysWorld.cpp; sourceTree = "<group>"; };
+		7E8AAB362A354BB600F23530 /* SkeletalMeshComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SkeletalMeshComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB372A354BB600F23530 /* MeshComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MeshComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB382A354BB600F23530 /* VertexArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VertexArray.h; sourceTree = "<group>"; };
+		7E8AAB392A354BB600F23530 /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		7E8AAB3B2A354BB600F23530 /* mountain_road.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = mountain_road.fbx; sourceTree = "<group>"; };
+		7E8AAB3C2A354BB600F23530 /* Dragon_ground_color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dragon_ground_color.jpg; sourceTree = "<group>"; };
+		7E8AAB3D2A354BB600F23530 /* hero_m.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = hero_m.fbx; sourceTree = "<group>"; };
+		7E8AAB3E2A354BB600F23530 /* Wood_Tower_Col.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood_Tower_Col.jpg; sourceTree = "<group>"; };
+		7E8AAB3F2A354BB600F23530 /* mountain.lwo */ = {isa = PBXFileReference; lastKnownFileType = file; path = mountain.lwo; sourceTree = "<group>"; };
+		7E8AAB402A354BB600F23530 /* AceRTP_heroFUVW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUVW.png; sourceTree = "<group>"; };
+		7E8AAB412A354BB600F23530 /* BoundingVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoundingVolume.png; sourceTree = "<group>"; };
+		7E8AAB422A354BB600F23530 /* AceRTP_heroFUVB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUVB.png; sourceTree = "<group>"; };
+		7E8AAB432A354BB600F23530 /* hero_m1.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = hero_m1.fbx; sourceTree = "<group>"; };
+		7E8AAB442A354BB600F23530 /* AceRTP_heroFUVG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUVG.png; sourceTree = "<group>"; };
+		7E8AAB452A354BB600F23530 /* AceRTP_heroMUVY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUVY.png; sourceTree = "<group>"; };
+		7E8AAB462A354BB600F23530 /* AceRTP_heroMUVN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUVN.png; sourceTree = "<group>"; };
+		7E8AAB472A354BB600F23530 /* AceRTP_heroFUV0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUV0.png; sourceTree = "<group>"; };
+		7E8AAB482A354BB600F23530 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		7E8AAB492A354BB600F23530 /* ground_grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ground_grass.jpg; sourceTree = "<group>"; };
+		7E8AAB4A2A354BB600F23530 /* AceRTP_heroFUVR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUVR.png; sourceTree = "<group>"; };
+		7E8AAB4B2A354BB600F23530 /* dragon.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragon.fbx; sourceTree = "<group>"; };
+		7E8AAB4C2A354BB600F23530 /* house.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = house.x; sourceTree = "<group>"; };
+		7E8AAB4D2A354BB600F23530 /* AceRTP_heroMUVW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUVW.png; sourceTree = "<group>"; };
+		7E8AAB4E2A354BB600F23530 /* parts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parts.jpg; sourceTree = "<group>"; };
+		7E8AAB4F2A354BB600F23530 /* mountain.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = mountain.fbx; sourceTree = "<group>"; };
+		7E8AAB502A354BB600F23530 /* house.lwo */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.lwo; sourceTree = "<group>"; };
+		7E8AAB512A354BB600F23530 /* HealthBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthBar.png; sourceTree = "<group>"; };
+		7E8AAB522A354BB600F23530 /* AceRTP_heroMUVB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUVB.png; sourceTree = "<group>"; };
+		7E8AAB532A354BB600F23530 /* AceRTP_heroFUVY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUVY.png; sourceTree = "<group>"; };
+		7E8AAB542A354BB600F23530 /* AceRTP_heroFUVN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroFUVN.png; sourceTree = "<group>"; };
+		7E8AAB552A354BB600F23530 /* Wolf_Eyes_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Eyes_1.jpg; sourceTree = "<group>"; };
+		7E8AAB562A354BB600F23530 /* AceRTP_heroMUVG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUVG.png; sourceTree = "<group>"; };
+		7E8AAB572A354BB600F23530 /* AceRTP_heroMUV0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUV0.png; sourceTree = "<group>"; };
+		7E8AAB582A354BB600F23530 /* tower.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = tower.fbx; sourceTree = "<group>"; };
+		7E8AAB592A354BB600F23530 /* wolf.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = wolf.fbx; sourceTree = "<group>"; };
+		7E8AAB5A2A354BB600F23530 /* Wolf_Eyes_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Eyes_2.jpg; sourceTree = "<group>"; };
+		7E8AAB5B2A354BB600F23530 /* AceRTP_shieldUV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_shieldUV.png; sourceTree = "<group>"; };
+		7E8AAB5C2A354BB600F23530 /* AceRTP_heroMUVR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_heroMUVR.png; sourceTree = "<group>"; };
+		7E8AAB5D2A354BB600F23530 /* Big_Old_House_C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Big_Old_House_C.jpg; sourceTree = "<group>"; };
+		7E8AAB5E2A354BB600F23530 /* smoke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smoke.jpg; sourceTree = "<group>"; };
+		7E8AAB5F2A354BB600F23530 /* explosions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosions.png; sourceTree = "<group>"; };
+		7E8AAB602A354BB600F23530 /* AceRTP_swordUV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceRTP_swordUV.png; sourceTree = "<group>"; };
+		7E8AAB612A354BB600F23530 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E8AAB622A354BB600F23530 /* Wolf_Fur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wolf_Fur.png; sourceTree = "<group>"; };
+		7E8AAB632A354BB600F23530 /* hero_f.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = hero_f.fbx; sourceTree = "<group>"; };
+		7E8AAB642A354BB600F23530 /* Wolf_Body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wolf_Body.jpg; sourceTree = "<group>"; };
+		7E8AAB652A354BB600F23530 /* ParticleComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB662A354BB600F23530 /* OrbitCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbitCamera.h; sourceTree = "<group>"; };
+		7E8AAB672A354BB600F23530 /* DebuggerComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebuggerComponent.h; sourceTree = "<group>"; };
+		7E8AAB682A354BB600F23530 /* SpriteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteComponent.h; sourceTree = "<group>"; };
+		7E8AAB692A354BB600F23530 /* RPGActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPGActor.h; sourceTree = "<group>"; };
+		7E8AAB6A2A354BB600F23530 /* FollowActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowActor.h; sourceTree = "<group>"; };
+		7E8AAB6B2A354BB600F23530 /* WolfActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WolfActor.h; sourceTree = "<group>"; };
+		7E8AAB6C2A354BB600F23530 /* MoveComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MoveComponent.cpp; sourceTree = "<group>"; };
+		7E8AAB6D2A354BB600F23530 /* Actor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		7E8AAB6E2A354BB600F23530 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		7E8AAB6F2A354BB600F23530 /* SkeletalMeshComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkeletalMeshComponent.h; sourceTree = "<group>"; };
+		7E8AAB702A354BB600F23530 /* CameraComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraComponent.h; sourceTree = "<group>"; };
+		7E8AAB712A354BB600F23530 /* InputSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputSystem.cpp; sourceTree = "<group>"; };
+		7E8AAB722A354BB600F23530 /* Bone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bone.cpp; sourceTree = "<group>"; };
+		7E8AAB732A354BB600F23530 /* InputSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputSystem.h; sourceTree = "<group>"; };
+		7E8AAB742A354BB600F23530 /* MeshComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeshComponent.h; sourceTree = "<group>"; };
+		7E8AAB752A354BB600F23530 /* PhysWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysWorld.h; sourceTree = "<group>"; };
+		7E8AAB762A354BB600F23530 /* VertexArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VertexArray.cpp; sourceTree = "<group>"; };
+		7E8AAB772A354BB600F23530 /* BoundingVolumeComponet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BoundingVolumeComponet.cpp; sourceTree = "<group>"; };
+		7E8AAB782A354BB600F23530 /* Polygon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
+		7E8AAB792A354BB600F23530 /* Shader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		7E8AAB7A2A354BB600F23530 /* RPGActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RPGActor.cpp; sourceTree = "<group>"; };
+		7E8AAB7B2A354BB600F23530 /* FollowActor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FollowActor.cpp; sourceTree = "<group>"; };
+		7E8AAB7C2A354BB600F23530 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		7E8AAB9B2A354E0300F23530 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8AAA752A354AAC00F23530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8AAB9C2A354E0300F23530 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8AAA6F2A354AAC00F23530 = {
+			isa = PBXGroup;
+			children = (
+				7E8AAA7A2A354AAC00F23530 /* Water */,
+				7E8AAA792A354AAC00F23530 /* Products */,
+				7E8AAB9A2A354E0300F23530 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8AAA792A354AAC00F23530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AAA782A354AAC00F23530 /* Water */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8AAA7A2A354AAC00F23530 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AAB392A354BB600F23530 /* Actor.cpp */,
+				7E8AAB112A354BB500F23530 /* Application.cpp */,
+				7E8AAB722A354BB600F23530 /* Bone.cpp */,
+				7E8AAB772A354BB600F23530 /* BoundingVolumeComponet.cpp */,
+				7E8AAB212A354BB500F23530 /* CameraComponent.cpp */,
+				7E8AAB302A354BB500F23530 /* ColliderComponent.cpp */,
+				7E8AAB332A354BB600F23530 /* Component.cpp */,
+				7E8AAB2E2A354BB500F23530 /* DebuggerComponent.cpp */,
+				7E8AAB132A354BB500F23530 /* FieldOvjectActor.cpp */,
+				7E8AAB7B2A354BB600F23530 /* FollowActor.cpp */,
+				7E8AAB102A354BB500F23530 /* FollowCamera.cpp */,
+				7E8AAB712A354BB600F23530 /* InputSystem.cpp */,
+				7E8AAB292A354BB500F23530 /* main.cpp */,
+				7E8AAB2C2A354BB500F23530 /* Math.cpp */,
+				7E8AAB122A354BB500F23530 /* Mesh.cpp */,
+				7E8AAB372A354BB600F23530 /* MeshComponent.cpp */,
+				7E8AAB6C2A354BB600F23530 /* MoveComponent.cpp */,
+				7E8AAB142A354BB500F23530 /* OrbitCamera.cpp */,
+				7E8AAB652A354BB600F23530 /* ParticleComponent.cpp */,
+				7E8AAB352A354BB600F23530 /* PhysWorld.cpp */,
+				7E8AAB782A354BB600F23530 /* Polygon.cpp */,
+				7E8AAB262A354BB500F23530 /* Renderer.cpp */,
+				7E8AAB7A2A354BB600F23530 /* RPGActor.cpp */,
+				7E8AAB792A354BB600F23530 /* Shader.cpp */,
+				7E8AAB362A354BB600F23530 /* SkeletalMeshComponent.cpp */,
+				7E8AAB342A354BB600F23530 /* SpriteComponent.cpp */,
+				7E8AAB272A354BB500F23530 /* Texture.cpp */,
+				7E8AAB762A354BB600F23530 /* VertexArray.cpp */,
+				7E8AAB202A354BB500F23530 /* WolfActor.cpp */,
+				7E8AAB6D2A354BB600F23530 /* Actor.h */,
+				7E8AAB2A2A354BB500F23530 /* Animation.h */,
+				7E8AAB222A354BB500F23530 /* Application.h */,
+				7E8AAB232A354BB500F23530 /* Bone.h */,
+				7E8AAB2B2A354BB500F23530 /* BoundingVolumeComponet.h */,
+				7E8AAB702A354BB600F23530 /* CameraComponent.h */,
+				7E8AAB0E2A354BB500F23530 /* ColliderComponent.h */,
+				7E8AAB6E2A354BB600F23530 /* Component.h */,
+				7E8AAB672A354BB600F23530 /* DebuggerComponent.h */,
+				7E8AAB2F2A354BB500F23530 /* FieldOvjectActor.h */,
+				7E8AAB6A2A354BB600F23530 /* FollowActor.h */,
+				7E8AAB252A354BB500F23530 /* FollowCamera.h */,
+				7E8AAB732A354BB600F23530 /* InputSystem.h */,
+				7E8AAB282A354BB500F23530 /* Math.h */,
+				7E8AAB242A354BB500F23530 /* Mesh.h */,
+				7E8AAB742A354BB600F23530 /* MeshComponent.h */,
+				7E8AAB152A354BB500F23530 /* MoveComponent.h */,
+				7E8AAB662A354BB600F23530 /* OrbitCamera.h */,
+				7E8AAB312A354BB500F23530 /* ParticleComponent.h */,
+				7E8AAB752A354BB600F23530 /* PhysWorld.h */,
+				7E8AAB0F2A354BB500F23530 /* Polygon.h */,
+				7E8AAB322A354BB500F23530 /* Renderer.h */,
+				7E8AAB692A354BB600F23530 /* RPGActor.h */,
+				7E8AAB2D2A354BB500F23530 /* Shader.h */,
+				7E8AAB6F2A354BB600F23530 /* SkeletalMeshComponent.h */,
+				7E8AAB682A354BB600F23530 /* SpriteComponent.h */,
+				7E8AAB7C2A354BB600F23530 /* Texture.h */,
+				7E8AAB382A354BB600F23530 /* VertexArray.h */,
+				7E8AAB6B2A354BB600F23530 /* WolfActor.h */,
+				7E8AAB3A2A354BB600F23530 /* Assets */,
+				7E8AAB162A354BB500F23530 /* Shaders */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		7E8AAB162A354BB500F23530 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AAB172A354BB500F23530 /* Phong.frag */,
+				7E8AAB182A354BB500F23530 /* BasicMesh.vert */,
+				7E8AAB192A354BB500F23530 /* Particle.frag */,
+				7E8AAB1A2A354BB500F23530 /* Sprite.vert */,
+				7E8AAB1B2A354BB500F23530 /* Billboard.vert */,
+				7E8AAB1C2A354BB500F23530 /* BasicMesh.frag */,
+				7E8AAB1D2A354BB500F23530 /* Phong.vert */,
+				7E8AAB1E2A354BB500F23530 /* Skinned.vert */,
+				7E8AAB1F2A354BB500F23530 /* Sprite.frag */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		7E8AAB3A2A354BB600F23530 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AAB3B2A354BB600F23530 /* mountain_road.fbx */,
+				7E8AAB3C2A354BB600F23530 /* Dragon_ground_color.jpg */,
+				7E8AAB3D2A354BB600F23530 /* hero_m.fbx */,
+				7E8AAB3E2A354BB600F23530 /* Wood_Tower_Col.jpg */,
+				7E8AAB3F2A354BB600F23530 /* mountain.lwo */,
+				7E8AAB402A354BB600F23530 /* AceRTP_heroFUVW.png */,
+				7E8AAB412A354BB600F23530 /* BoundingVolume.png */,
+				7E8AAB422A354BB600F23530 /* AceRTP_heroFUVB.png */,
+				7E8AAB432A354BB600F23530 /* hero_m1.fbx */,
+				7E8AAB442A354BB600F23530 /* AceRTP_heroFUVG.png */,
+				7E8AAB452A354BB600F23530 /* AceRTP_heroMUVY.png */,
+				7E8AAB462A354BB600F23530 /* AceRTP_heroMUVN.png */,
+				7E8AAB472A354BB600F23530 /* AceRTP_heroFUV0.png */,
+				7E8AAB482A354BB600F23530 /* black.png */,
+				7E8AAB492A354BB600F23530 /* ground_grass.jpg */,
+				7E8AAB4A2A354BB600F23530 /* AceRTP_heroFUVR.png */,
+				7E8AAB4B2A354BB600F23530 /* dragon.fbx */,
+				7E8AAB4C2A354BB600F23530 /* house.x */,
+				7E8AAB4D2A354BB600F23530 /* AceRTP_heroMUVW.png */,
+				7E8AAB4E2A354BB600F23530 /* parts.jpg */,
+				7E8AAB4F2A354BB600F23530 /* mountain.fbx */,
+				7E8AAB502A354BB600F23530 /* house.lwo */,
+				7E8AAB512A354BB600F23530 /* HealthBar.png */,
+				7E8AAB522A354BB600F23530 /* AceRTP_heroMUVB.png */,
+				7E8AAB532A354BB600F23530 /* AceRTP_heroFUVY.png */,
+				7E8AAB542A354BB600F23530 /* AceRTP_heroFUVN.png */,
+				7E8AAB552A354BB600F23530 /* Wolf_Eyes_1.jpg */,
+				7E8AAB562A354BB600F23530 /* AceRTP_heroMUVG.png */,
+				7E8AAB572A354BB600F23530 /* AceRTP_heroMUV0.png */,
+				7E8AAB582A354BB600F23530 /* tower.fbx */,
+				7E8AAB592A354BB600F23530 /* wolf.fbx */,
+				7E8AAB5A2A354BB600F23530 /* Wolf_Eyes_2.jpg */,
+				7E8AAB5B2A354BB600F23530 /* AceRTP_shieldUV.png */,
+				7E8AAB5C2A354BB600F23530 /* AceRTP_heroMUVR.png */,
+				7E8AAB5D2A354BB600F23530 /* Big_Old_House_C.jpg */,
+				7E8AAB5E2A354BB600F23530 /* smoke.jpg */,
+				7E8AAB5F2A354BB600F23530 /* explosions.png */,
+				7E8AAB602A354BB600F23530 /* AceRTP_swordUV.png */,
+				7E8AAB612A354BB600F23530 /* Default.png */,
+				7E8AAB622A354BB600F23530 /* Wolf_Fur.png */,
+				7E8AAB632A354BB600F23530 /* hero_f.fbx */,
+				7E8AAB642A354BB600F23530 /* Wolf_Body.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7E8AAB9A2A354E0300F23530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E8AAB9B2A354E0300F23530 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E8AAA772A354AAC00F23530 /* Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8AAA7F2A354AAC00F23530 /* Build configuration list for PBXNativeTarget "Water" */;
+			buildPhases = (
+				7E8AAA742A354AAC00F23530 /* Sources */,
+				7E8AAA752A354AAC00F23530 /* Frameworks */,
+				7E8AAA762A354AAC00F23530 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Water;
+			productName = Water;
+			productReference = 7E8AAA782A354AAC00F23530 /* Water */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8AAA702A354AAC00F23530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7E8AAA772A354AAC00F23530 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E8AAA732A354AAC00F23530 /* Build configuration list for PBXProject "Water" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8AAA6F2A354AAC00F23530;
+			productRefGroup = 7E8AAA792A354AAC00F23530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8AAA772A354AAC00F23530 /* Water */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8AAA742A354AAC00F23530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8AAB972A354BF500F23530 /* Bone.cpp in Sources */,
+				7E8AAB8B2A354BF500F23530 /* Texture.cpp in Sources */,
+				7E8AAB942A354BF500F23530 /* Component.cpp in Sources */,
+				7E8AAB932A354BF500F23530 /* MeshComponent.cpp in Sources */,
+				7E8AAB842A354BF500F23530 /* CameraComponent.cpp in Sources */,
+				7E8AAB8A2A354BF500F23530 /* ColliderComponent.cpp in Sources */,
+				7E8AAB8C2A354BF500F23530 /* Actor.cpp in Sources */,
+				7E8AAB7E2A354BF500F23530 /* MoveComponent.cpp in Sources */,
+				7E8AAB922A354BF500F23530 /* ParticleComponent.cpp in Sources */,
+				7E8AAB862A354BF500F23530 /* SpriteComponent.cpp in Sources */,
+				7E8AAB992A354BF500F23530 /* InputSystem.cpp in Sources */,
+				7E8AAB7F2A354BF500F23530 /* Shader.cpp in Sources */,
+				7E8AAB962A354BF500F23530 /* main.cpp in Sources */,
+				7E8AAB872A354BF500F23530 /* OrbitCamera.cpp in Sources */,
+				7E8AAB802A354BF500F23530 /* BoundingVolumeComponet.cpp in Sources */,
+				7E8AAB8D2A354BF500F23530 /* Polygon.cpp in Sources */,
+				7E8AAB982A354BF500F23530 /* SkeletalMeshComponent.cpp in Sources */,
+				7E8AAB7D2A354BF500F23530 /* VertexArray.cpp in Sources */,
+				7E8AAB8F2A354BF500F23530 /* Mesh.cpp in Sources */,
+				7E8AAB8E2A354BF500F23530 /* FieldOvjectActor.cpp in Sources */,
+				7E8AAB822A354BF500F23530 /* DebuggerComponent.cpp in Sources */,
+				7E8AAB812A354BF500F23530 /* Math.cpp in Sources */,
+				7E8AAB832A354BF500F23530 /* Application.cpp in Sources */,
+				7E8AAB952A354BF500F23530 /* FollowActor.cpp in Sources */,
+				7E8AAB902A354BF500F23530 /* Renderer.cpp in Sources */,
+				7E8AAB892A354BF500F23530 /* WolfActor.cpp in Sources */,
+				7E8AAB912A354BF500F23530 /* FollowCamera.cpp in Sources */,
+				7E8AAB882A354BF500F23530 /* PhysWorld.cpp in Sources */,
+				7E8AAB852A354BF500F23530 /* RPGActor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E8AAA7D2A354AAC00F23530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E8AAA7E2A354AAC00F23530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7E8AAA802A354AAC00F23530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/lib;
+				OTHER_LDFLAGS = (
+					"-lassimp",
+					"-lGLEW",
+					"-lSDL2_image",
+					"-lSDL2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E8AAA812A354AAC00F23530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /opt/homebrew/include;
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/lib;
+				OTHER_LDFLAGS = (
+					"-lassimp",
+					"-lGLEW",
+					"-lSDL2_image",
+					"-lSDL2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8AAA732A354AAC00F23530 /* Build configuration list for PBXProject "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8AAA7D2A354AAC00F23530 /* Debug */,
+				7E8AAA7E2A354AAC00F23530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8AAA7F2A354AAC00F23530 /* Build configuration list for PBXNativeTarget "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8AAA802A354AAC00F23530 /* Debug */,
+				7E8AAA812A354AAC00F23530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8AAA702A354AAC00F23530 /* Project object */;
+}
